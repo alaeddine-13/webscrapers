@@ -129,9 +129,9 @@ if __name__ == "__main__":
         nargs='*', dest='questions')
 
     args = parser.parse_args()
-    if args.questions:
-        for question in args.questions:
-            print(f"found response {ask_google(question)} for question {question}")
-    
+    print(args.questions)
+    for question in args.questions:
+        print(f"found response {ask_google(question)} for question {question}")
+
 
 
