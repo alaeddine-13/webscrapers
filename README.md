@@ -18,3 +18,10 @@ python google_question_answering.py --question "worldcup 2022 country" "amazon t
 python3 -m oaca
 python3 -m oaca --airport tunis --out flights_03_11_2020.csv
 ```
+
+* `amazon_india.py`: Add product from amazon india to wish list
+
+```bash
+python3 -m amazon_india --username "username" --password "password" --product "iphone 7"
+python3 -m amazon_india --username "username" --password "password" --product "iphone 7" --wish-list "My wish list"
+```
